@@ -25,6 +25,7 @@
     top: 50%;
     bottom: 50%;
     padding-left: 25%;
+    padding-right: 25%;
     margin: 20px 10px;
     color: white;
 }
@@ -35,10 +36,72 @@ body {
 }
 
 h1 {
+    font-size: 50px;
+}
+
+h2 {
     font-size: 40px;
 }
 
 #hero-title-size {
     font-size: 60px;
     text-align: center;
+}
+
+.donation-amount {
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    padding: 5px;
+    border: 1px solid bisque;
+    background-color: bisque;
+
+}
+
+.section-alighment {
+    text-align: center;
+    padding-left: 25%;
+    padding-right: 25%;
+}
+
+#amount-highlight {
+    background-color: rgb(252, 99, 99);
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    padding: 5px;
+    border: 1px solid darkred;
+    color: white;
+
+}
+
+.plan-area {
+    display: flex;
+
+}
+
+.plan-common {
+    width: 320px;
+    padding: 10px;
+    border: 5px solid gray;
+    margin: 0;
+}
+
+#food-family {
+    background-color: aquamarine
+}
+
+#shelter-family {
+    background-color: bisque
+}
+
+#education-child {
+    background-color: antiquewhite
+}
+
+#footer {
+    text-align: center;
+    background-color: black;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
